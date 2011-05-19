@@ -1,5 +1,5 @@
 <?php
-class Hoge {
+class Foo {
 	function thisIsCopyAndPastePrograming() {
 		echo 1;
 		echo 2;
@@ -8,7 +8,7 @@ class Hoge {
 		echo 5;
 	}
 	
-	function method($unuseParameter, $useParameter) {
-		echo $useParameter;
+	function plus($a, $b) {
+		return $a * $b;
 	}
-}
+} 
